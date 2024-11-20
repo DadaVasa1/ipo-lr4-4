@@ -1,4 +1,5 @@
+array = []
 for i in range(1,11):
-    i *=3
-    print(i)
+    array.append(i*3)
+print(array)
 
